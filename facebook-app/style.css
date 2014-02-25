@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+	padding: 0;
+	margin: auto;
+}
+
+.content img {
+	width: 100%!important;
+	height: auto;
+}
+
+/* desktop */
+@media (min-width: 810px) {
+	.content {
+		background: url('img/facebook-app.jpg');
+		background-size: 810px 3000px;
+		background-repeat: no-repeat;
+		height: 3000px;
+		width: 810px;
+	}
+}
+
+/* phone */
+@media (max-width: 809px) {
+	.content {
+		background: url('img/phone.jpg');
+		background-size: 320px 3000px;
+		background-repeat: no-repeat;
+		height: 3000px;
+		width: 320px;
+	}
+}
+
+.animated {
+	-webkit-animation-fill-mode:both;
+	-moz-animation-fill-mode:both;
+	-ms-animation-fill-mode:both;
+	-o-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	-ms-animation-duration:2s;
+	-o-animation-duration:2s;
+	animation-duration:2s;
+}
+
+.animated.hinge {
+	-webkit-animation-duration:2s;
+	-moz-animation-duration:2s;
+	-ms-animation-duration:2s;
+	-o-animation-duration:2s;
+	animation-duration:2s;
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}	
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}	
+	100% {
+		opacity: 1;
+	}
+}
+
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}	
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}	
+	100% {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	-moz-animation-name: fadeIn;
+	-o-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
