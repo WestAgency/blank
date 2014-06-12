@@ -4,26 +4,16 @@ body {
 	overflow-x: hidden;
 }
 
-img {
-	padding: 0;
-	margin: 0;
-}
-
-.content {
+div {
 	padding: 0;
 	margin: auto;
-}
-
-.content img {
-	width: 100%!important;
-	height: auto;
 }
 
 /* desktop */
 
 @media (min-width: 810px) {
-	.content {
-		background: url('img/desktop.jpg');
+	div {
+		background: url('img/fb-app-desktop.jpg');
 		background-size: 810px 3000px;
 		background-repeat: no-repeat;
 		height: 3000px;
@@ -34,8 +24,8 @@ img {
 /* phone */
 
 @media (max-width: 809px) {
-	.content {
-		background: url('img/phone.jpg');
+	div {
+		background: url('img/fb-app-phone.jpg');
 		background-size: 320px 3000px;
 		background-repeat: no-repeat;
 		height: 3000px;
@@ -43,7 +33,7 @@ img {
 	}
 }
 
-/* fadein animation */
+/* animation */
 
 .animated {
 	-webkit-animation-fill-mode:both;

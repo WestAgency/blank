@@ -4,26 +4,16 @@ body {
 	overflow-x: hidden;
 }
 
-img {
-	padding: 0;
-	margin: 0;
-}
-
-.content {
+div {
 	padding: 0;
 	margin: auto;
-}
-
-.content img {
-	width: 100%!important;
-	height: auto;
 }
 
 /* desktop */
 
 @media (min-width: 1440px) {
-	.content {
-		background: url('img/desktop.jpg');
+	div {
+		background: url('img/web-desktop.jpg');
 		background-size: 1440px 3000px;
 		background-repeat: no-repeat;
 		height: 3000px;
@@ -34,8 +24,8 @@ img {
 /* tablet */
 
 @media (max-width: 1439px) {
-	.content {
-		background: url('img/tablet.jpg');
+	div {
+		background: url('img/web-tablet.jpg');
 		background-size: 980px 3000px;
 		background-repeat: no-repeat;
 		height: 3000px;
@@ -46,8 +36,8 @@ img {
 /* phone */
 
 @media (max-width: 980px) {
-	.content {
-		background: url('img/phone.jpg');
+	div {
+		background: url('img/web-phone.jpg');
 		background-size: 320px 3000px;
 		background-repeat: no-repeat;
 		height: 3000px;
@@ -55,7 +45,7 @@ img {
 	}
 }
 
-/* fadein animation */
+/* animation */
 
 .animated {
 	-webkit-animation-fill-mode:both;
